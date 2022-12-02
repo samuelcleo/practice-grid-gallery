@@ -1,12 +1,30 @@
 /* ===================================== 
+   Base Styles
+======================================== */
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+.search {
+    text-align: center;
+    padding: 20px 50px;
+}
+#search_input {
+    padding: 16px 10px;
+    border-radius: 5px;
+    border: solid gray 1px;
+    width: 50%;
+    font-size: 12px;
+}
+
+/* ===================================== 
    Grid Layout
 ======================================== */
-
 .gallery {
-    max-width: 800px;
     margin: 0 auto;
+    justify-content: center;
+    max-width: 1000px;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
+    grid-gap: 1em;
 }
