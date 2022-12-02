@@ -9,7 +9,7 @@ body {
     text-align: center;
     padding: 20px 50px;
 }
-#search_input {
+#search {
     padding: 16px 10px;
     border-radius: 5px;
     border: solid gray 1px;
