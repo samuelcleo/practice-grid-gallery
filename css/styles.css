@@ -7,7 +7,7 @@ body {
 }
 .search {
     text-align: center;
-    padding: 20px 50px;
+    padding: 10px 50px 30px;
 }
 #search {
     padding: 16px 10px;
@@ -26,5 +26,5 @@ body {
     max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 200px));
-    grid-gap: 1em;
+    grid-gap: 1.5em;
 }
